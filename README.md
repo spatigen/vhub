@@ -50,7 +50,7 @@ python ./filter/extract_speech_text.py
 
 📍 **Annotation**
 
-Our annotation platform is Label Studio, please refer to [Annotation_Manual](https://github.com/Foreverskyou/humor_benchmark_evaulation/tree/main/Annotation_Manual) and [Label Studio](https://github.com/HumanSignal/label-studio) for setting up the platform (see [Annotated](https://huggingface.co/datasets/Foreverskyou/video/tree/main/Annotated)).
+Our annotation platform is Label Studio, please refer to [Annotation_Manual](https://github.com/spatigen/vhub/tree/main/Annotation_Manual) and [Label Studio](https://github.com/HumanSignal/label-studio) for setting up the platform.
 
 📍 **Evaluation**: 
 
