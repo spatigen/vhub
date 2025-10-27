@@ -3,8 +3,8 @@
 <div style="text-align: center">
   <a href="https://arxiv.org/pdf/2509.25773"><img src="https://img.shields.io/badge/arXiv-2503.23765-b31b1b.svg" alt="arXiv"></a>
   <a href="https://huggingface.co/datasets/Foreverskyou/video/tree/main"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue" alt="Hugging Face Datasets"></a>
-  <a href="https://github.com/MINT-SJTU/STI-Bench"><img src="https://img.shields.io/badge/GitHub-Code-lightgrey" alt="GitHub Repo"></a>
-  <a href="https://mint-sjtu.github.io/STI-Bench.io/"><img src="https://img.shields.io/badge/Homepage-STI--Bench-brightgreen" alt="Homepage"></a>
+  <a href="https://github.com/spatigen/vhub"><img src="https://img.shields.io/badge/GitHub-Code-lightgrey" alt="GitHub Repo"></a>
+  <a href="https://spatigen.github.io/vhub.io/"><img src="https://img.shields.io/badge/Homepage-STI--Bench-brightgreen" alt="Homepage"></a>
 </div>
 
 ## 📗 Overview
