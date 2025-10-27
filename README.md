@@ -25,10 +25,10 @@ AI models capable of comprehending humor hold real-world promise—for example, 
 
 **License**:
 ```
-V-HUB is only used for academic research. Commercial use in any form is prohibited.
+v-HUB is only used for academic research. Commercial use in any form is prohibited.
 The copyright of all videos belongs to the video owners.
-If there is any infringement in V-HUB, please email shi_zpeng@sjtu.edu.cn and we will remove it immediately.
-Without prior approval, you cannot distribute, publish, copy, disseminate, or modify V-HUB in whole or in part. 
+If there is any infringement in v-HUB, please email shi_zpeng@sjtu.edu.cn and we will remove it immediately.
+Without prior approval, you cannot distribute, publish, copy, disseminate, or modify v-HUB in whole or in part. 
 You must strictly comply with the above restrictions.
 ```
 
@@ -40,13 +40,9 @@ Please send an email to **shi_zpeng@sjtu.edu.cn**. 🌟
     <img src="./figures/pipline.png" width="100%" height="100%">
 </p>
 
-📍 **Downloading**
-
-Use WFDownloader to crawl videos from X. (see [Before filtering](https://huggingface.co/datasets/Foreverskyou/video/tree/main/Before%20filtering))
-
 📍 **Filtering**
 
-After removing duplicate and harmful videos, deploy the Whisper model and only retain videos with less than 10 characters. (see [After filtering](https://huggingface.co/datasets/Foreverskyou/video/tree/main/After%20filtering)).
+We deploy the Whisper model and only retain videos with less than 10 characters.
 
 ```bash
 python ./filter/extract_speech_text.py
