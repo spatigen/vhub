@@ -1,0 +1,98 @@
+<View>
+  <Video name="video" value="$video"/>
+  
+  <!-- Instruction at the start -->
+  <Style> .fancy-border { border: 2px dotted blue; text-align: center; }</Style>
+  <View className="fancy-border">
+    <Header value="For more details, see the Labeling Manual."/>
+  </View>
+  
+  <!-- Writing your labeling name -->
+  <Header value="Please write your annotation name"/>
+  <TextArea name="annotation_name" toName="video" placeholder="Writing your annotation name"/>
+  
+  <!-- 1st question: Single choice question about humor -->
+  <Header value="Q1. Please rate how humorous you find the video:"/>
+  <Choices name="humor_level" toName="video" choice="single">
+    <Choice value="Very Humorous">Very Humorous</Choice>
+    <Choice value="Somewhat Humorous">Somewhat Humorous</Choice>
+    <Choice value="Little bit Humorous">Little bit Humorous</Choice>
+    <Choice value="Can't find any Humorous point">Can't find any Humorous point</Choice>
+  </Choices>
+  <View style="color: blue; font-weight: bold; line-height: 2;">
+    <Text name="q1text" value="$If you can't find any humorous points, please skip to the next one."/>
+  </View>
+  
+  
+  <!-- 2nd question: Single choice question about speech subtitles and text -->
+  <Header value="Q2. Does the video contain any speech subtitles or visual text?"/>
+  <Choices name="text_subtitle_presence" toName="video" choice="multiple">
+    <Choice value="Speech Subtitles Exist">Speech Subtitles Exist</Choice>
+    <Choice value="Visual Text Exists"> Visual Text Exists</Choice>
+  </Choices>
+
+  <!-- 3rd question: Text box for writing a humorous caption -->
+  <Header value="Q3. Use your imagination to write a caption for the video that adds a new point of humor."/>
+  <TextArea name="humorous_caption" toName="video" placeholder="Write a humorous caption for the video"/>
+
+  <!-- 4th question: Text box for writing an entertaining caption -->
+  <Header value="Q4. Pretend you're posting this video online. What caption will you write to make it more entertaining for viewers?"/>
+  <TextArea name="entertaining_caption" toName="video" placeholder="Write an entertaining caption for the video"/>
+  
+  <!-- 5th question: Multiple choice question about humor aspects -->
+<Header value="Q5. Which aspects of the video contributed to understanding humor?"/>
+
+  <View style="color: blue; font-weight: bold; line-height: 2;">
+
+    <Text name="q5text" value="If a certain aspect appears in the video but does not help in understanding the video, you do not need to select it."/>
+
+  </View>
+
+  <Choices name="humor_contribution_most" toName="video" showInLine="true" choice="multiple">
+  <Choice value="human_visuals" hint="The facial expressions, body language, or actions of people.">
+    Human Visuals
+  </Choice>
+  <Choice value="other_visuals" hint="Any non-human visuals, like objects, animals, or the surrounding environment.">
+    Other Visuals (Objects or Scenery)
+  </Choice>
+  <Choice value="speech" hint="The dialogue or anything spoken by the characters.">
+    Speech (Spoken Words)
+  </Choice>
+  <Choice value="Visual Text" hint="Text appearing as a graphic (e.g., memes, titles). Does not include subtitles.">
+    Visual Text
+  </Choice>
+  <Choice value="speech subtitles" hint="The written transcript of dialogue shown on screen.">
+    Speech Subtitles
+  </Choice>
+  <Choice value="sound_effects_music" hint="All audio that isn't speech, like background music, sound effects, or ambient noise.">
+    Sound Effects or Music
+  </Choice>
+  <Choice value="visual_effects" hint="Special effects added to the video, such as slow motion, filters, or animations.">
+    Visual Effects
+  </Choice>
+</Choices>
+
+  <!-- 6th question: Text box for straightforward description -->
+  <Header value="Q6. Please describe the video in a direct way."/>
+  <View style="color: blue; font-weight: bold; line-height: 2;">
+    <Text name="q6text" value="Detailing the main actions, people, and events without interpretation."/>
+  </View>
+  <TextArea name="video_description" toName="video" placeholder="Enter a straightforward description of the video content"/>
+
+  <!-- 7th question: Keywords/phrases for background knowledge -->
+  <Header value="Q7. Please provide keywords / phrases representing background knowledge not shown in the video that an AI would need to understand the humor."/>
+  <View style="color: blue; font-weight: bold; line-height: 2;">
+    <Text name="q7text" value="Include only knowledge that CANNOT be directly obtained by watching the video."/>
+  </View>
+  <TextArea name="background_knowledge" toName="video" placeholder="Enter keywords or phrases"/>
+
+  <!-- 8th question: Text box for explaining why the video is funny/interesting -->
+  <Header value="Q8. Using your answers from Questions 5 to 7, please explain why the video is humorous. "/>
+  <View style="color: blue; font-weight: bold; line-height: 2;">
+    <Text name="q8text" value="Please include all the humorous points you can find, as thoroughly as possible."/>
+  </View>
+  <TextArea name="humor_explanation" toName="video" placeholder="Explain why the video is funny or interesting"/>
+  
+
+  
+</View>

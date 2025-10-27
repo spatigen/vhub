@@ -1,0 +1,58 @@
+<View>
+  <Video name="video" value="$video"/>
+  
+  <!-- Writing your labeling name -->
+  <Header value="Please write your annotation name"/>
+  <TextArea name="annotation_name" toName="video" placeholder="Writing your annotation name"/>
+  
+  <Header value="Is this is a very high-quality video?"/>
+
+  <View style="color: blue; font-weight: bold; line-height: 2;">
+
+  </View>
+  
+  <Choices name="humor" toName="video" showInLine="true" choice="multiple">
+  <Choice value="This is a high-quality video" hint="The facial expressions, body language, or actions of people.">
+    This is a high-quality video
+    </Choice>
+</Choices>
+  
+  <!-- 5th question: Multiple choice question about humor aspects -->
+<Header value="If not suitable for annotation, please specify the reason(s):"/>
+
+  <View style="color: blue; font-weight: bold; line-height: 2;">
+
+  </View>
+
+  <Choices name="humor_contribution_most" toName="video" showInLine="true" choice="multiple">
+  <Choice value="Discrimination" hint="The facial expressions, body language, or actions of people.">
+    Discrimination
+  </Choice>
+  <Choice value="Animal Cruelty" hint="Any non-human visuals, like objects, animals, or the surrounding environment.">
+    Animal Cruelty
+  </Choice>
+  <Choice value="Dangerous Activities" hint="The dialogue or anything spoken by the characters.">
+    Dangerous Activities
+  </Choice>
+  <Choice value="Physical Violence" hint="Text appearing as a graphic (e.g., memes, titles). Does not include subtitles.">
+    Physical Violence
+  </Choice>
+  <Choice value="Obscenities" hint="The written transcript of dialogue shown on screen.">
+    Obscenities
+  </Choice>
+  <Choice value="Shocking Content" hint="All audio that isn't speech, like background music, sound effects, or ambient noise.">
+    Shocking Content
+  </Choice>
+  <Choice value="Confusing" hint="Special effects added to the video, such as slow motion, filters, or animations.">
+    Confusing
+  </Choice>
+    <Choice value="Low Resolution" hint="Special effects added to the video, such as slow motion, filters, or animations.">
+    Low Resolution
+  </Choice>
+</Choices>
+
+
+  
+  
+  
+</View>
