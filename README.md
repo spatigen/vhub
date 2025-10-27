@@ -7,6 +7,9 @@
   <a href="https://mint-sjtu.github.io/STI-Bench.io/"><img src="https://img.shields.io/badge/Homepage-STI--Bench-brightgreen" alt="Homepage"></a>
 </div>
 
+## Overview
+We introduce v-HUB, a novel visual-centric video humor understanding benchmark.
+
 <p align="center">
     <img src="./figures/teaser.png" width="100%" height="100%">
 </p>
