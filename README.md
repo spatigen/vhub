@@ -8,7 +8,7 @@
 </div>
 
 ## Overview
-We introduce v-HUB, a novel visual-centric video humor understanding benchmark.
+We introduce **<span style="color: #9AEA27;">v-HUB</span>**, a novel **visual-centric** video humor understanding benchmark.
 
 <p align="center">
     <img src="./figures/teaser.png" width="100%" height="100%">
