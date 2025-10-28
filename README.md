@@ -58,7 +58,7 @@ Our annotation platform is Label Studio, please refer to [Annotation_Manual](htt
 
 ```bash
 git clone https://github.com/spatigen/vhub.git
-cd STI-Bench
+cd vhub
 # Make sure git-lfs is installed (https://git-lfs.com)
 git lfs install
 git clone https://huggingface.co/datasets/Foreverskyou/v-HUB
@@ -68,7 +68,7 @@ git clone https://huggingface.co/datasets/Foreverskyou/v-HUB
 
 1.  **Prepare Data:** Unzip the `all_data.zip` file located in the dataset directory you just cloned. This will create an `all_data` folder.
 
-2.  **Update Paths:** Open the evaluation script you wish to use (e.g., `opensource_test.py`). Update the `PARQUET_FILE` and `VIDEO_DIR` variables to the absolute paths of your dataset files.
+2.  **Update Paths:** Open the evaluation script you wish to use. Update the `PARQUET_FILE` and `VIDEO_DIR` variables to the absolute paths of your dataset files.
 
 3.  **Run Evaluation:** After installing the necessary dependencies for the model, try to execute the script.
 
