@@ -25,13 +25,14 @@ To gauge and diagnose the capacity of multimodal large language models (MLLMs) f
 
 ```
 v-HUB is only used for academic research. Commercial use in any form is prohibited.
-The copyright of all videos belongs to the video owners.
+It contains a collection of funny videos collected from two complementary domains.
+Therefore, the copyright of all videos belongs to the video owners.
 If there is any infringement in v-HUB, please email shi_zpeng@sjtu.edu.cn and we will remove it immediately.
 Without prior approval, you cannot distribute, publish, copy, disseminate, or modify v-HUB in whole or in part. 
 You must strictly comply with the above restrictions.
 ```
 
-Please send an email to **shi_zpeng@sjtu.edu.cn**. 🌟
+Please send an email to **shi_zpeng@sjtu.edu.cn**.
 
 ## 🔮 Data Curation and Evaluation Pipeline
 
