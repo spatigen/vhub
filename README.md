@@ -21,9 +21,8 @@ AI models capable of comprehending humor hold real-world promise—for example, 
     <img src="./figures/example.png" width="100%" height="100%">
 </p>
 
-## 🔍 Dataset
+## 📝 License
 
-**License**:
 ```
 v-HUB is only used for academic research. Commercial use in any form is prohibited.
 The copyright of all videos belongs to the video owners.
