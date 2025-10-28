@@ -40,7 +40,7 @@ Please send an email to **shi_zpeng@sjtu.edu.cn**. 🌟
     <img src="./figures/pipline.png" width="100%" height="100%">
 </p>
 
-📍 **Filtering**
+### 📍 Filtering
 
 We deploy the Whisper model and only retain videos with less than 10 characters.
 
@@ -48,15 +48,34 @@ We deploy the Whisper model and only retain videos with less than 10 characters.
 python ./filter/extract_speech_text.py
 ```
 
-📍 **Annotation**
+### 📍 Annotation
 
 Our annotation platform is Label Studio, please refer to [Annotation_Manual](https://github.com/spatigen/vhub/tree/main/Annotation_Manual) and [Label Studio](https://github.com/HumanSignal/label-studio) for setting up the platform.
 
-📍 **Evaluation**: 
+### 📍 Evaluation
+
+**Step 1: Get the Code and Data**
+
+```bash
+git clone https://github.com/spatigen/vhub.git
+cd STI-Bench
+# Make sure git-lfs is installed (https://git-lfs.com)
+git lfs install
+git clone https://huggingface.co/datasets/Foreverskyou/v-HUB
+```
+
+**Step 2: Configure and Run**
+
+1.  **Prepare Data:** Unzip the `all_data.zip` file located in the dataset directory you just cloned. This will create an `all_data` folder.
+
+2.  **Update Paths:** Open the evaluation script you wish to use (e.g., `opensource_test.py`). Update the `PARQUET_FILE` and `VIDEO_DIR` variables to the absolute paths of your dataset files.
+
+3.  **Run Evaluation:** After installing the necessary dependencies for the model, try to execute the script.
 
 ```bash
 ./scripts/Text_Only/example_QA.sh
 ```
+
 Here we provide example scripts for the three tasks under the three settings: Text-Only, Video-Only, and Video+Audio.
 
 You can specify different tasks, such as: `['QA','explanation','matching']`. And you can also specify different models, for example:`['Qwen2.5-Omni','Qwen2.5-VL','Gemini2.5-flash','GPT-4o','InterVL 3.5','Minicpm 2.6-o','video SALMONN 2']`
