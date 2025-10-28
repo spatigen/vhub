@@ -61,6 +61,15 @@ Here we provide example scripts for the three tasks under the three settings: Te
 
 You can specify different tasks, such as: `['QA','explanation','matching']`. And you can also specify different models, for example:`['Qwen2.5-Omni','Qwen2.5-VL','Gemini2.5-flash','GPT-4o','InterVL 3.5','Minicpm 2.6-o','video SALMONN 2']`
 
+## 📮 Contact
+If you have any questions, please feel free to contact us:
+
+[shi_zpeng@sjtu.edu.cn](mailto:shi_zpeng@sjtu.edu.cn)
+
+[lihengli@stu.pku.edu.cn](mailto:lihengli@stu.pku.edu.cn)
+
+[yannzhao.ed@gmail.com](mailto:yannzhao.ed@gmail.com)
+
 ## :black_nib: Citation
 
 If you find our work helpful for your research, please consider citing our work. 
