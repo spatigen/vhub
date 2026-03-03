@@ -1,4 +1,4 @@
-# V-HUB: A VISUAL-CENTRIC HUMOR UNDERSTANDING BENCHMARK FOR VIDEO LLMS
+# v-HUB: A Benchmark for Video Humor Understanding from Vision and Sound
 
 <div style="text-align: center">
   <a href="https://arxiv.org/abs/2509.25773"><img src="https://img.shields.io/badge/arXiv-2503.23765-b31b1b.svg" alt="arXiv"></a>
