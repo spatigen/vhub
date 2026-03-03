@@ -72,8 +72,6 @@ If you have any questions, please feel free to contact us:
 
 [shi_zpeng@sjtu.edu.cn](mailto:shi_zpeng@sjtu.edu.cn)
 
-[lihengli@stu.pku.edu.cn](mailto:lihengli@stu.pku.edu.cn)
-
 [yannzhao.ed@gmail.com](mailto:yannzhao.ed@gmail.com)
 
 
