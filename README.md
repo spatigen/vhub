@@ -8,7 +8,7 @@
 </div>
 
 ## 📗 Overview
-To gauge and diagnose the capacity of multimodal large language models (MLLMs) for humor understanding, we introduce v-HUB, a novel video humor understanding benchmark. It comprises a curated collection of non-verbal short videos, reflecting real-world scenarios where humor can be appreciated purely through visual cues.
+To gauge and diagnose the capacity of multimodal large language models (MLLMs) for humor understanding, we introduce v-HUB, a novel **video humor understanding** benchmark. It comprises a curated collection of non-verbal short videos, reflecting real-world scenarios where humor can be appreciated purely through visual cues.
 
 <p align="center">
     <img src="./figures/teaser.png" width="100%" height="100%">
