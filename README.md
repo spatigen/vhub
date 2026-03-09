@@ -95,7 +95,7 @@ If you find our work helpful for your research, please consider citing our work.
 ```bibtex
 @article{shi2025v,
   title={V-HUB: A Visual-Centric Humor Understanding Benchmark for Video LLMs},
-  author={Shi, Zhengpeng and Li, Hengli and Zhao, Yanpeng and Zhou, Jianqun and Wang, Yuxuan and Cui, Qinrong and Bi, Wei and Zhu, Songchun and Zhao, Bo and Zheng, Zilong},
+  author={Shi, Zhengpeng and Zhao, Yanpeng and Zhou, Jianqun and Wang, Yuxuan and Cui, Qinrong and Bi, Wei and Zhu, Songchun and Zhao, Bo and Zheng, Zilong},
   journal={arXiv preprint arXiv:2509.25773},
   year={2025}
 }
