@@ -80,7 +80,7 @@ If you have any questions, please feel free to contact us:
 v-HUB is only used for academic research. Commercial use in any form is prohibited.
 It contains a collection of funny videos collected from two complementary domains.
 Therefore, the copyright of all videos belongs to the video owners.
-If there is any infringement in v-HUB, please email shi_zpeng@sjtu.edu.cn and we will remove it immediately.
+If there is any infringement in v-HUB, please email shi_zpeng@sjtu.edu.cn, and we will remove it immediately.
 Without prior approval, you cannot distribute, publish, copy, disseminate, or modify v-HUB in whole or in part. 
 You must strictly comply with the above restrictions.
 ```
@@ -94,7 +94,7 @@ If you find our work helpful for your research, please consider citing our work.
 
 ```bibtex
 @article{shi2025v,
-  title={V-HUB: A Visual-Centric Humor Understanding Benchmark for Video LLMs},
+  title={v-HUB: A Benchmark for Video Humor Understanding from Vision and Sound},
   author={Shi, Zhengpeng and Zhao, Yanpeng and Zhou, Jianqun and Wang, Yuxuan and Cui, Qinrong and Bi, Wei and Zhu, Songchun and Zhao, Bo and Zheng, Zilong},
   journal={arXiv preprint arXiv:2509.25773},
   year={2025}
