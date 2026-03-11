@@ -93,10 +93,13 @@ Please send an email to **shi_zpeng@sjtu.edu.cn**.
 If you find our work helpful for your research, please consider citing our work. 
 
 ```bibtex
-@article{shi2025v,
-  title={v-HUB: A Benchmark for Video Humor Understanding from Vision and Sound},
-  author={Shi, Zhengpeng and Zhao, Yanpeng and Zhou, Jianqun and Wang, Yuxuan and Cui, Qinrong and Bi, Wei and Zhu, Songchun and Zhao, Bo and Zheng, Zilong},
-  journal={arXiv preprint arXiv:2509.25773},
-  year={2025}
+@misc{shi2026vhubbenchmarkvideohumor,
+      title={v-HUB: A Benchmark for Video Humor Understanding from Vision and Sound}, 
+      author={Zhengpeng Shi and Yanpeng Zhao and Jianqun Zhou and Yuxuan Wang and Qinrong Cui and Wei Bi and Songchun Zhu and Bo Zhao and Zilong Zheng},
+      year={2026},
+      eprint={2509.25773},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.25773}, 
 }
 ```
